@@ -37,4 +37,4 @@ Además, trabajamos en equipo utilizando GitHub para el control de versiones del
 <img src="buscar.PNG">
 <img src="agregar.PNG">
   ## Enlace al tablero de Microsoft Planner  
-  Enlace al Microsoft Planer: https://planner.cloud.microsoft/webui/plan/VrO_cMGBSU6pG2kWRZDioGQABI91/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
+  Enlace al Microsoft Planer: https://planner.cloud.microsoft/webui/v1/plan/VrO_cMGBSU6pG2kWRZDioGQABI91?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
