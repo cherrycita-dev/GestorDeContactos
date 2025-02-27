@@ -29,6 +29,6 @@ Además, trabajamos en equipo utilizando GitHub para el control de versiones del
   **3. Compilación y ejecución del programa.**  
   * Comando para compilar el programa: "Run Python File".
   ## Capturas de pantalla del programa en funcionamiento  
-
+<img src="">
   ## Enlace al tablero de Microsoft Planner  
-  Enlace al Microsoft Planer: 
+  Enlace al Microsoft Planer: https://planner.cloud.microsoft/webui/plan/VrO_cMGBSU6pG2kWRZDioGQABI91/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
