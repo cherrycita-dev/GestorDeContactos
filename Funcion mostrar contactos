@@ -1,0 +1,8 @@
+def ver_contactos():
+    print("Ver contactos")
+    for contacto in agenda:
+        print("ID: ", contacto["id"])
+        print("Nombre: ", contacto["nombre"])
+        print("Telefono: ", contacto["telefono"])
+        print("Email: ", contacto["email"])
+        print("---------------")
