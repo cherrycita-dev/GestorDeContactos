@@ -17,6 +17,8 @@ Además, trabajamos en equipo utilizando GitHub para el control de versiones del
     
   Para compilar y ejecutar este proyecto, necesitarás:
   - Visual Studio Code.
+  - Instalar la extensión "Python".
+  - Instalar compiladores o intérpretes, en este caso sería Python.
   
   **2. Descarga o clonación del repositorio.**  
   * Cómo descargar o clonar el repositorio:
