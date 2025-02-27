@@ -1,0 +1,21 @@
+def eliminar_contacto():
+        print("Contacto no encontrado")
+
+def cargar_contactos():
+    # Encabezados de CSV o TXT: nombre, telefono, email
+
+    # Validar que el archivo exista
+    try:
+        with open("contactos.csv", "r") as archivo:
+            lineas = archivo.readlines()
+            for linea in lineas:
+                contacto = linea.strip().split(",")
+                agenda.append({
+                    "id": len(agenda) + 1,
+                    "nombre": contacto[0],
+                    "telefono": contacto[1],
+                    "email": contacto[2]
+                })
+    except FileNotFoundError:
+        print("El archivo no existe")
+        return
