@@ -1,0 +1,16 @@
+def agregar_contacto():
+    print("Agregar contacto")
+    nombre = input("Nombre: ")
+    telefono = input("Telefono: ")
+    email = input("Email: ")
+
+    contacto = {
+        "id": len(agenda) + 1,
+        "nombre": nombre,
+        "telefono": telefono,
+        "email": email
+    }
+
+    agenda.append(contacto)
+
+    print("Contacto agregado")
