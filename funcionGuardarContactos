@@ -1,0 +1,5 @@
+def guardar_contactos():
+    with open("contactos.csv", "w") as archivo:
+        for contacto in agenda:
+            archivo.write(f"{contacto['nombre']},{contacto['telefono']},{contacto['email']}\n")
+    print("Contactos guardados exitosamente")
