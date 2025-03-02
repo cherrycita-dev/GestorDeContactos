@@ -1,0 +1,15 @@
+def cargar_contactos():
+    try:
+        with open("contactos.csv", "r") as archivo:
+            lineas = archivo.readlines()
+            for linea in lineas:
+                contacto = linea.strip().split(",")
+                agenda.append({
+                    "id": len(agenda) + 1,
+                    "nombre": contacto[0],
+                    "telefono": contacto[1],
+                    "email": contacto[2]
+                })
+        print("Contactos cargados exitosamente")
+    except FileNotFoundError:
+        print("El archivo no existe")
