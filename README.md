@@ -41,23 +41,32 @@ Para obtener el código del proyecto:
 
 ## Capturas de pantalla del programa  
 ### Menú principal  
-<img src="menu.PNG" alt="Menú principal" width="600">  
+<img src="Assets/menu.PNG" alt="Menú principal" width="350">  
 
 ### Editar contacto  
-<img src="editar.PNG" alt="Editar contacto" width="600">  
+<img src="Assets/editar.PNG" alt="Editar contacto" width="350">  
 
 ### Eliminar contacto  
-<img src="eliminar.PNG" alt="Eliminar contacto" width="600">  
+<img src="Assets/eliminar.PNG" alt="Eliminar contacto" width="350">  
 
 ### Ver contactos  
-<img src="ver.PNG" alt="Ver contactos" width="600">  
+<img src="Assets/ver.PNG" alt="Ver contactos" width="350">  
 
 ### Buscar contacto  
-<img src="buscar.PNG" alt="Buscar contacto" width="600">  
+<img src="Assets/buscar.PNG" alt="Buscar contacto" width="350">  
 
 ### Agregar contacto  
-<img src="agregar.PNG" alt="Agregar contacto" width="600">  
+<img src="Assets/agregar.PNG" alt="Agregar contacto" width="350">  
 
 ## Enlace al tablero de Microsoft Planner  
 Puedes acceder a nuestro tablero en **Microsoft Planner** en el siguiente enlace:  
 🔗 [Microsoft Planner](https://planner.cloud.microsoft/webui/v1/plan/VrO_cMGBSU6pG2kWRZDioGQABI91?tid=f94bf4d9-8097-4794-adf6-a5466ca28563)
+
+---
+## Integrantes
+- Carranza Mercado Jesus Eduardo
+-  Gonzalez Pérez Monserrat
+- Pérez Méndez Nancy Esmeralda
+- Valencia Hernandez Kevin Guadalupe
+- Zamudio Lopez Leonardo
+  
