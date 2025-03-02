@@ -1,0 +1,46 @@
+def buscar_contacto():
+    print("Seleccione una opcion de busqueda")
+    print("1. Nombre")
+    print("2. Telefono")
+    print("3. Email")
+
+    opcion = input("Opcion: ")
+
+    if opcion == "1":
+        nombre = input("Nombre: ")
+        for contacto in agenda:
+            if contacto["nombre"] == nombre:
+                print("ID: ", contacto["id"])
+                print("Nombre: ", contacto["nombre"])
+                print("Telefono: ", contacto["telefono"])
+                print("Email: ", contacto["email"])
+                print("---------------")
+                encontrado = True
+        if not encontrado:
+            print("Contacto no encontrado")
+    elif opcion == "2":
+        telefono = input("Telefono: ")
+        for contacto in agenda:
+            if contacto["telefono"] == telefono:
+                print("ID: ", contacto["id"])
+                print("Nombre: ", contacto["nombre"])
+                print("Telefono: ", contacto["telefono"])
+                print("Email: ", contacto["email"])
+                print("---------------")
+                encontrado = True
+        if not encontrado:
+            print("Contacto no encontrado")
+    elif opcion == "3":
+        email = input("Email: ")
+        for contacto in agenda:
+            if contacto["email"] == email:
+                print("ID: ", contacto["id"])
+                print("Nombre: ", contacto["nombre"])
+                print("Telefono: ", contacto["telefono"])
+                print("Email: ", contacto["email"])
+                print("---------------")
+                encontrado = True
+        if not encontrado:
+            print("Contacto no encontrado")
+    else:
+        print("Opcion no valida")
