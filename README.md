@@ -29,7 +29,7 @@ Para obtener el código del proyecto:
 3. Extrae el contenido del archivo ZIP en una carpeta local.  
 4. (Opcional) También puedes clonar el repositorio con el siguiente comando en tu terminal:  
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/cherrycita-dev/GestorDeContactos>
    ```
 
 ### 3. Ejecutar el programa  
